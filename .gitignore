@@ -1,0 +1,4 @@
+video_temp/
+__pycache__/
+*__pycache__/
+*.DS_Store
