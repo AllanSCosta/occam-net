@@ -3,6 +3,8 @@
 
 # OccamNet Implementation
 
+Paper can be found [here](https://arxiv.org/abs/2007.10784) 
+
 The neural network architecture is specified in `neural_net.py`, and training is programmed in the file `train.py`. We run OccamNet through an "Experiment" interface, which is specified in a .json file present in the subdirectory `experiments`.
 
 To install system requirements with conda, run:
@@ -11,7 +13,6 @@ conda env create -f environment.yml
 ```
 Specifying the prefix in the last of the .yml file to properly set up where to install the dependencies (Note that installation will fail otherwise). More information can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
-Paper can be found [here](https://arxiv.org/abs/2007.10784) 
 
 
 ## Code
